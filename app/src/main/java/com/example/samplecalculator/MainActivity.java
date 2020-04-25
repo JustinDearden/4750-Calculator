@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        decimalFormat = new DecimalFormat("#.##########");
+        decimalFormat = new DecimalFormat("#.####");
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
